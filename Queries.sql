@@ -72,6 +72,7 @@ where milliseconds > (
 	from track)
 order by milliseconds desc;
 
+------------- Level 3 ----------------
 -- 1. Find how much amount spent by each customer on artists? Write a query to return
 -- customer name, artist name and total spent
 with best_selling_artist as(
